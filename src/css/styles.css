@@ -82,3 +82,39 @@ button {
   font-size: 18px;
   text-transform: uppercase;
 }
+
+.form {
+  margin-top: 16px;
+  max-width: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+
+[name='delay'] {
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  min-width: 272px;
+  border-radius: 4px;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    border-color: #000;
+  }
+
+  &:active {
+    border-color: #4e75ff;
+  }
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-around;
+  min-width: 272px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
