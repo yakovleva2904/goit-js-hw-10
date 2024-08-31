@@ -11,3 +11,74 @@ body {
 .link-pages {
   font-weight: 700;
 }
+
+.container {
+  padding: 16px;
+}
+
+.form-control {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: 1px solid #808080;
+  min-width: 272px;
+  border-radius: 4px;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    border-color: #000;
+  }
+
+  &:active {
+    border-color: #4e75ff;
+  }
+
+  &:disabled {
+    border-color: #808080;
+    color: #808080;
+  }
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    background-color: #6c8cff;
+  }
+
+  &:disabled {
+    background-color: #cfcfcf;
+    color: #989898;
+  }
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.value {
+  font-size: 64px;
+}
+
+.label {
+  font-size: 18px;
+  text-transform: uppercase;
+}
